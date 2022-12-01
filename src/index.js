@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style1.css";
 
 window.onload = function() {
   document.querySelector("#btn").addEventListener("click", () => {
