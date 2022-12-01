@@ -6,15 +6,15 @@ window.onload = function() {
   });
 };
 let generaExcusa = () => {
-  let quien = ['Mi perro','El gato','El auto','El vecino','Una persona'];
-  let accion = ['rompio','aplasto','destrozo','perdio','borro'];
-  let que = ['mi tarea','mi comida','mi telefono','mi pc'];
-  let cuando = ['hoy','ayer','la semana pasada','hace 2 dias'];
+  let pronoun = ['the','our'];
+  let adj = ['great', 'big' ];
+  let noun = ['jogger','racoon'];
+  let exten =['com','es','info','cl','org','net']
 
-  let uno= (Math.floor(Math.random * quien.length ))
-  let dos =(Math.floor(Math.random * accion.length ))
-  let tres=(Math.floor(Math.random * que.length ))
-  let cuatro=(Math.floor(Math.random * cuando.length )) 
+  let uno= (Math.floor(Math.random * pronoun.length ))
+  let dos =(Math.floor(Math.random * adj.length ))
+  let tres=(Math.floor(Math.random * noun.length ))
+  let cuatro=(Math.floor(Math.random * exten.length ))
 
-  return quien[uno] +' '+accion[dos]+' '+que[tres]+' '+cuando[cuatro]
+  return pronoun[uno] +' '+adj[dos]+' '+noun[tres]+' '+exten[cuatro]
 };
