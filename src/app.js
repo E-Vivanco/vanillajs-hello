@@ -15,7 +15,7 @@ let generaExcusa = () => {
   let tres = parseInt(Math.floor(Math.random * noun.length));
   let cuatro = parseInt(Math.floor(Math.random * exten.length));
   return;
-  pronoun[uno] + " " + adj[dos] + " " + noun[tres] + " " + exten[cuatro];
+  (pronoun[uno] + " " + adj[dos] + " " + noun[tres] + " " + exten[cuatro]);
 };
 window.onload = function() {
   document.querySelector("#btn").addEventListener("click", () => {
