@@ -13,7 +13,7 @@ window.onload = function() {
 let generaExcusa = () => {
   let pronoun = ["the", "our", "meat", "floor", "pencil"];
   let adj = ["great", "big", "small", "fast", "flash"];
-  let noun = ["jogger", "racoon", "geen", "red", "blue", ""];
+  let noun = ["jogger", "racoon", "geen", "red", "blue"];
   let exten = [".com", ".es", ".info", ".cl", ".org", ".net"];
 
   let uno = parseInt(Math.floor(Math.random() * pronoun.length));
